@@ -9,6 +9,6 @@ This project is an Enigma machine cracker that attempts to decrypt messages enco
 - Support for Multiple Reflectors & Rotors: Tests various Enigma configurations including different rotors, reflectors, and plugboard settings.
 
 ## How it Works
-- Once the program is ran all possible rotor and reflector combinations are used on the first 6 letters of the ciphertext. If these letters are repeated, is is possible that the correct machine settings were used.
- - The rest of the ciphertext is than decrypted using these settings and printed in the console.
- - The user can then view these print statements, and find the one that displays the correct message and machine settings.
+- Once the program is ran all possible rotor and reflector combinations are used on the first 6 letters of the ciphertext.
+- If the first 6 letters contain repetitions, the rest of the ciphertext is than decrypted using the previous machine settings and printed in the console.
+- The user can then view these print statements, and find the one that displays the correct message and machine settings.
